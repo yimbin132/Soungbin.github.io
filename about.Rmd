@@ -1,0 +1,79 @@
+---
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### This page has information about me
+
+EDUCATION													 
+Columbia University Mailman School of Public Health       								    New York, NY
+Master of Public Health in Sociomedical Science; Certificate in Applied Biostatistics                                               Expected May 2023
+Relevant Coursework: Data Science I, Analysis of Categorical Data, Applied Regression, Structural Approach-Global Health
+
+Emory University College of Arts and Science		       								         Atlanta, GA
+Bachelor of Science in Environmental Science; Minor in Ethics			       	                                      Graduated May 2017
+Relevant Coursework: Ecology & Evolution of Disease, Law and Biodiversity, Environmental Policy
+
+RESEARCH EXPERIENCE                                                             						
+Columbia University Mailman School of Public Health Sociomedical Science Department                                       New York, NY                                           
+Research Assistant                                                                                                                                                            June 2022-Present
+•	Conduct mixed-methods research to assess the impact of a naloxone training and opioid education campaign among 400 students, faculty members, and administrative staff of the Columbia University campus on attitudes, knowledge, norms, intention, and adoption of practices regarding opioid prevention and naloxone administration across three different time points
+
+Columbia University School of Nursing                                                                                                                            New York, NY
+Research Data Analyst                                                                                                                                                          Feb 2022-Present
+•	Conduct descriptive statistics and multiple regression analysis using SPSS to examine Adverse Child Experiences (ACEs) and minority stress as independent and combined risk factors for lifetime suicidality among Sexual Minority Women (SMW)
+
+Emory University, Environmental Sciences Department                                                                                                     Atlanta, GA
+SIRE (Scholarly Inquiry and Research Experience) and SRPP (Summer Research Partner Program) Fellow under Dr. Saikawa 													 	               August 2015-May 2017
+•	Investigated discrepancy between adoption year of emission standards and fuel quality standards in countries categorized by income using a World Bank database from 1975 to 2013, to mitigate air pollution in a more effective and appropriate way
+•	Conducted multiple regression analysis with lagged dependent variable (LDV) using R to assess effectiveness of Chinese environmental policies in mitigating CO2 emissions in different provinces
+•	Performed exploratory data analysis using R; extracting and cleaning key variables from diverse datasets (identifying missing values and outliers via graphical univariate analysis, such as creating histogram and box plot)
+
+WORK EXPERIENCE                       										
+Republic of Korea Air Force (ROKAF) Headquarters					                                 Gyeryong, South Korea
+Translation/Interpretation Officer in Charge: 1st Lieutenant							         June 2018-May 2021
+•	Facilitated key stakeholder engagements by interpreting for the senior-level R.O.K. and U.S. military officials, senior managers of U.S. federal government contractors and other key stakeholders to establish a strong international alliance between the R.O.K. and the U.S at international conferences, convenings, and official strategic meetings
+•	Spearheaded translation and publication of 15+ scholarly articles and history books, supervising 9 translators to advance the organization’s mission by providing insight into leadership, command, and logistics from past conflict experience
+
+LEADERSHIP/VOLUNTEER ACTIVITIES                                         						
+Columbia Humanitarian Organization for Migration and Emergency (HOME)                                                         New York, NY
+Communication Chair                                                                                                                                                   January 2022-Present
+•	Create engaging posts related to humanitarian issues globally and manage communication with followers on social media
+•	Advertise organization’s events on social media via creating graphics and promotional materials 
+
+Columbia Christian Fellowship (CCF)                                                                                                                              New York, NY
+Executive Board Member                                                                                                                                            January 2022-Present
+•	Lead weekly bible studies and provide directives for the prayer team to spiritually support the organization’s registered members
+
+All Angels’ Community Meal Volunteering                                                                                                                       New York, NY
+Volunteer                                                                                                                                                                    November 2021-Present
+•	Serve to-go meals to the All-Angels’ community, including Manhattan Upper Westside neighbors experiencing homelessness or housing insecurity
+
+
+
+Saemoonan Church DUNAMIS Thailand Mission Trip Team                                                            Chiang Mai, Thailand and Remote
+Team Leader/Participant                                                                                                                                 August 2017-February 2019  
+•	Orchestrated a mission trip by organizing the overall schedule with local missionaries and raised funds from churches and donors
+•	Designed and led educational empowerment programs for stateless children to guide them to discover vision and purpose in life
+
+Emory Korean Christian Association (EKCA)	 			                             		         Atlanta, GA      
+Board Member (Secretary), Fellowship Leader		`				                        Aug 2014-May 2017
+•	Determined the priority of the association and developed strategies to accomplish the association's overall goal: providing directives and motivating Emory students to learn more about Christianity, leading a group of about 50 students 
+•	Kept formal records of all board member meetings to keep track of the association's process
+
+City Hope Community After School (Raya) Program                                                                                                        Clarkston, GA
+After School Program Tutor                                       								         Aug 2014-May 2017
+•	Educated 20+ refugee students in Math and English to help them excel in school curriculum 
+•	Established a safe space and community for refugee student via long term interpersonal relationship to help their resettlement
+
+PRESENTATIONS, GRANTS AND HONORS									
+Oral/Poster Presentations
+•	2017 Emory Spring Undergraduate Research Symposium: "Investigating the gap between the adoption year of emission standards and fuel quality standards" 
+•	2016 Summer Research Partner Program:"Testing the effectiveness of Chinese environmental policies in reducing CO2 emissions”
+
+Grants and Honors
+•	2017 Emory Research Symposium Sustainability Prize                                                                                                         April 2017
+•	2016 Summer Research Partner Program (SRPP) with housing award and $3000 stipend for research training                   June 2016
