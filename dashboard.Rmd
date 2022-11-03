@@ -17,7 +17,7 @@ library(dplyr)
 library(rnoaa)
 ```
 # loading and cleaning the dataset
-```{r}
+```{r, include=FALSE}
 weather_df = 
   rnoaa::meteo_pull_monitors(
     c("USW00094728", "USC00519397", "USS0023B17S"),
@@ -56,6 +56,7 @@ Column {data-width=350}
 
 ```{r}
 weather_df %>% 
+  mutate(name = fct_reorder(name, tmax)) %>% 
   plot_ly(y = ~tmax, color = ~name, type = "box", colors = "viridis")
 
 ```
