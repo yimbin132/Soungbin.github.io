@@ -1,0 +1,72 @@
+---
+title: "NOAA Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source_code: embed
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(flexdashboard)
+library(plotly)
+install.packages("plotly")
+library(dplyr)
+library(rnoaa)
+```
+# loading and cleaning the dataset
+```{r}
+weather_df = 
+  rnoaa::meteo_pull_monitors(
+    c("USW00094728", "USC00519397", "USS0023B17S"),
+    var = c("PRCP", "TMIN", "TMAX"), 
+    date_min = "2013-01-01",
+    date_max = "2013-12-31") %>%
+  mutate(
+    name = recode(
+      id, 
+      USW00094728 = "CentralPark_NY", 
+      USC00519397 = "Waikiki_HA",
+      USS0023B17S = "Waterhole_WA"),
+    tmin = tmin / 10,
+    tmax = tmax / 10) %>%
+  select(name, id, everything())
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+weather_df %>%
+  mutate(text_label = str_c("Date:", date, "\nMaximum Temperature: ", tmax)) %>% 
+  plot_ly(
+    x = ~date, y = ~tmax, type = "scatter", mode = "line",
+    color = ~name, text = ~text_label, alpha = 0.5)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+weather_df %>% 
+  plot_ly(y = ~tmax, color = ~name, type = "box", colors = "viridis")
+
+```
+
+### Chart C
+
+```{r}
+densityplot_ggplot =
+  weather_df %>% 
+  ggplot(aes(x = tmax, fill = name)) + 
+  geom_density(alpha = .4, adjust = .5, color = "blue")
+
+ggplotly(densityplot_ggplot)
+```
